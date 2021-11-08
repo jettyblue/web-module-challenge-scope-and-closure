@@ -61,6 +61,9 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+
+  - A closure happens when an inner function reaches into an outer function to grab a value defined in the outer function. Most importantly, closure gives the ability to put functions together.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,8 +85,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  - The 'name' in the outer function is being used in the inner function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  - It was not the same the first and second time, the dice number will change each time because it is random.
+
 c. What is the lexical scope of `newRoll`? 
+
+  - const newRoll
+  
 
 
 ### Task 3 - Stretch Goals
